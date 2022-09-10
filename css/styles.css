@@ -1,0 +1,111 @@
+body{
+    background-color:hsl(193, 33%, 92%) ;
+    text-align: center;
+}
+
+h1{
+    margin: 10px 0 10px 0;
+    line-height: 0.75;
+    font-family: 'Fraunces', serif;
+}
+
+h2{
+    display: inline;
+    color: hsl(158, 36%, 37%);
+    font-weight:900;
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    /* font-family: 'Montserrat', sans-serif */
+    
+}
+
+.btn{
+    -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: hsl(158, 36%, 37%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  height: 35px;
+  width: 170px;
+  border-color: transparent;
+}
+
+.btn:hover {
+    background: #0c2e0f;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.outter-box{
+    background-color:hsl(30, 38%, 92%) ;
+    height: 500px;
+    width: 900px;
+    margin: 100px auto;
+    position: relative;
+    
+}
+
+.inner-box{
+    background-color:hsl(0, 0%, 100%)  ;
+    width: 400px;
+    height: 300px;
+    padding-right: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -200px;
+    text-align: left;
+    
+
+}
+
+.icon{
+    
+    height: 15px;
+    width: 15px;
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+}
+
+.img{
+    height: 300px;
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+.price{
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+.text{
+    
+    font-size: 10px;
+    line-height: 1.4;
+    word-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-top{
+    word-spacing: 3px;
+    margin-bottom:0 ;
+    font: size 5px; ;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
